@@ -1,110 +1,97 @@
-# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
-
-# Sites bloqueados para a empresa
-# BLOQUEIO DE SITES - INÍCIO (SiteBlocker)
-127.0.0.1 127.0.0.1 mercadolivre.com.br
-127.0.0.1 127.0.0.1 www.mercadolivre.com.br
-127.0.0.1 127.0.0.1 amazon.com.br
-127.0.0.1 127.0.0.1 www.amazon.com.br
-127.0.0.1 127.0.0.1 shopee.com.br
-127.0.0.1 127.0.0.1 www.shopee.com.br
-127.0.0.1 127.0.0.1 americanas.com.br
-127.0.0.1 127.0.0.1 www.americanas.com.br
-127.0.0.1 127.0.0.1 magalu.com.br
-127.0.0.1 127.0.0.1 www.magalu.com.br
-127.0.0.1 127.0.0.1 magazinevoce.com.br
-127.0.0.1 127.0.0.1 submarino.com.br
-127.0.0.1 127.0.0.1 www.submarino.com.br
-127.0.0.1 127.0.0.1 casasbahia.com.br
-127.0.0.1 127.0.0.1 www.casasbahia.com.br
-127.0.0.1 127.0.0.1 extra.com.br
-127.0.0.1 127.0.0.1 www.extra.com.br
-127.0.0.1 127.0.0.1 pontofrio.com.br
-127.0.0.1 127.0.0.1 www.pontofrio.com.br
-127.0.0.1 127.0.0.1 olx.com.br
-127.0.0.1 127.0.0.1 www.olx.com.br
-127.0.0.1 127.0.0.1 elo7.com.br
-127.0.0.1 127.0.0.1 www.elo7.com.br
-127.0.0.1 127.0.0.1 estantevirtual.com.br
-127.0.0.1 127.0.0.1 www.estantevirtual.com.br
-127.0.0.1 127.0.0.1 aliexpress.com
-127.0.0.1 127.0.0.1 www.aliexpress.com
-127.0.0.1 127.0.0.1 ebay.com
-127.0.0.1 127.0.0.1 www.ebay.com
-127.0.0.1 127.0.0.1 shein.com.br
-127.0.0.1 127.0.0.1 www.shein.com.br
-127.0.0.1 127.0.0.1 netshoes.com.br
-127.0.0.1 127.0.0.1 www.netshoes.com.br
-127.0.0.1 127.0.0.1 centauro.com.br
-127.0.0.1 127.0.0.1 www.centauro.com.br
-127.0.0.1 127.0.0.1 madeiramadeira.com.br
-127.0.0.1 127.0.0.1 www.madeiramadeira.com.br
-127.0.0.1 127.0.0.1 mobly.com.br
-127.0.0.1 127.0.0.1 www.mobly.com.br
-127.0.0.1 127.0.0.1 app.creditobrasilfinanceira.com.br
-127.0.0.1 127.0.0.1 www.app.creditobrasilfinanceira.com.br
-127.0.0.1 127.0.0.1 facebook.com
-127.0.0.1 127.0.0.1 www.facebook.com
-127.0.0.1 127.0.0.1 m.facebook.com
-127.0.0.1 127.0.0.1 instagram.com
-127.0.0.1 127.0.0.1 www.instagram.com
-127.0.0.1 127.0.0.1 m.instagram.com
-127.0.0.1 127.0.0.1 twitter.com
-127.0.0.1 127.0.0.1 www.twitter.com
-127.0.0.1 127.0.0.1 tiktok.com
-127.0.0.1 127.0.0.1 www.tiktok.com
-127.0.0.1 127.0.0.1 linkedin.com
-127.0.0.1 127.0.0.1 www.linkedin.com
-127.0.0.1 127.0.0.1 youtube.com
-127.0.0.1 127.0.0.1 www.youtube.com
-127.0.0.1 127.0.0.1 m.youtube.com
-127.0.0.1 127.0.0.1 youtu.be
-127.0.0.1 127.0.0.1 ytimg.com
-127.0.0.1 127.0.0.1 www.ytimg.com
-127.0.0.1 127.0.0.1 googlevideo.com
-127.0.0.1 127.0.0.1 www.googlevideo.com
-127.0.0.1 127.0.0.1 netflix.com
-127.0.0.1 127.0.0.1 www.netflix.com
-127.0.0.1 127.0.0.1 twitch.tv
-127.0.0.1 127.0.0.1 www.twitch.tv
-127.0.0.1 127.0.0.1 spotify.com
-127.0.0.1 127.0.0.1 www.spotify.com
-127.0.0.1 127.0.0.1 disneyplus.com
-127.0.0.1 127.0.0.1 www.disneyplus.com
-127.0.0.1 127.0.0.1 roblox.com
-127.0.0.1 127.0.0.1 www.roblox.com
-127.0.0.1 127.0.0.1 steamcommunity.com
-127.0.0.1 127.0.0.1 www.steamcommunity.com
-127.0.0.1 127.0.0.1 epicgames.com
-127.0.0.1 127.0.0.1 www.epicgames.com
-127.0.0.1 127.0.0.1 poki.com
-127.0.0.1 127.0.0.1 www.poki.com
-127.0.0.1 127.0.0.1 reddit.com
-127.0.0.1 127.0.0.1 www.reddit.com
-127.0.0.1 127.0.0.1 pinterest.com
-127.0.0.1 127.0.0.1 www.pinterest.com
-127.0.0.1 127.0.0.1 tumblr.com
-127.0.0.1 127.0.0.1 www.tumblr.com
-127.0.0.1 127.0.0.1 9gag.com
-127.0.0.1 127.0.0.1 www.9gag.com
-# BLOQUEIO DE SITES - FIM (SiteBlocker)
+# Marketplaces e lojas online
+   mercadolivre.com.br
+   www.mercadolivre.com.br
+   amazon.com.br
+   www.amazon.com.br
+   shopee.com.br
+   www.shopee.com.br
+   americanas.com.br
+   www.americanas.com.br
+   magalu.com.br
+   www.magalu.com.br
+   magazinevoce.com.br
+   submarino.com.br
+   www.submarino.com.br
+   casasbahia.com.br
+   www.americanas.com.br
+   magalu.com.br
+   www.magalu.com.br
+   magazinevoce.com.br
+   submarino.com.br
+   www.submarino.com.br
+   casasbahia.com.br
+   www.casasbahia.com.br
+   extra.com.br
+   www.extra.com.br
+   pontofrio.com.br
+   www.pontofrio.com.br
+   olx.com.br
+   www.olx.com.br
+   elo7.com.br
+   www.elo7.com.br
+   estantevirtual.com.br
+   www.estantevirtual.com.br
+   aliexpress.com
+   www.aliexpress.com
+   ebay.com
+   www.ebay.com
+   shein.com.br
+   www.shein.com.br
+   netshoes.com.br
+   www.netshoes.com.br
+   centauro.com.br
+   www.centauro.com.br
+   madeiramadeira.com.br
+   www.madeiramadeira.com.br
+   mobly.com.br
+   www.mobly.com.br
+   app.creditobrasilfinanceira.com.br
+   www.app.creditobrasilfinanceira.com.br
+   # Redes sociais
+   facebook.com
+   www.facebook.com
+   m.facebook.com
+   instagram.com
+   www.instagram.com
+   m.instagram.com
+   twitter.com
+   www.twitter.com
+   tiktok.com
+   www.tiktok.com
+   linkedin.com
+   www.linkedin.com
+   # Streaming e entretenimento
+   youtube.com
+   www.youtube.com
+   m.youtube.com
+   youtu.be
+   ytimg.com
+   www.ytimg.com
+   googlevideo.com
+   www.googlevideo.com
+   netflix.com
+   www.netflix.com
+   twitch.tv
+   www.twitch.tv
+   spotify.com
+   www.spotify.com
+   disneyplus.com
+   www.disneyplus.com
+   # Jogos
+   roblox.com
+   www.roblox.com
+   steamcommunity.com
+   www.steamcommunity.com
+   epicgames.com
+   www.epicgames.com
+   poki.com
+   www.poki.com
+   # Outros
+   reddit.com
+   www.reddit.com
+   pinterest.com
+   www.pinterest.com
+   tumblr.com
+   www.tumblr.com
+   9gag.com
+   www.9gag.com
